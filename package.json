@@ -10,7 +10,7 @@
     "dev": "node webpack",
     "build": "next build",
     "next-dev": "next",
-    "next-build": "next build",
+    "next-build": "node webpack production",
     "next-start": "next start",
     "next-export": "next export"
   },
