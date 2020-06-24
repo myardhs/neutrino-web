@@ -8,9 +8,9 @@
     "serve-and-update": "ts-node --project tsconfig-node.json --log-error server.js --port 5001 --thread serve-and-update",
     "serve": "ts-node --project tsconfig-node.json --log-error server.js --noupdate --thread main",
     "dev": "node webpack",
-    "build": "next build",
+    "build": "node webpack production",
     "next-dev": "next",
-    "next-build": "node webpack production",
+    "next-build": "next build",
     "next-start": "next start",
     "next-export": "next export"
   },
