@@ -9,10 +9,10 @@
     "serve": "ts-node --project tsconfig-node.json --log-error server.js --noupdate --thread main",
     "dev": "node webpack",
     "build": "node webpack production",
-    "next-dev": "next",
-    "next-build": "next build",
-    "next-start": "next start",
-    "next-export": "next export"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
   "author": "",
   "license": "ISC",
